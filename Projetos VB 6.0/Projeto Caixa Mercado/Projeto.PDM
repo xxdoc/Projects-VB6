@@ -1,0 +1,95 @@
+[Root]
+Most Recent Package=Script Mercado
+
+
+[Package|Script Mercado|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Package (2)
+
+[Package|Script Mercado|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Script Mercado|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Script Mercado|Files Found]
+
+[Package|Script Mercado|Files Released]
+
+[Package|Script Mercado|Missing Dependency Information]
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado21.tlb=
+
+[Package|Script Mercado|Out-of-Date Dependency Information]
+
+[Package|Script Mercado|Files Added]
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Banco\Dados.mdb=
+
+[Package|Script Mercado|Files Removed]
+
+[Package|Script Mercado|Files In Project]
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Mercado.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado21.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Banco\Dados.mdb=Yes
+
+[Package|Script Mercado|Configure Registry Files]
+Applicable=No
+
+[Package|Script Mercado|Configure Remote Servers]
+Applicable=No
+
+[Package|Script Mercado|Install Locations]
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Mercado.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\System\ado\msado21.tlb=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Banco\Dados.mdb=$(AppPath)
+
+[Package|Script Mercado|Configure Shared Files]
+Applicable=Yes
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Mercado.exe=Yes
+E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Banco\Dados.mdb=Yes
+
+[Package|Script Mercado|Distribution]
+Type=single
+Size=1.44 MB
+Title=Instalador do Sistema de Mercado
+
+[Package|Script Mercado|IconGroups]
+Group0=Instalador Sistema de Mercado
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Script Mercado|Instalador Sistema de Mercado]
+Icon1=Mercado.exe
+Title1=Instalador Sistema de Mercado
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Script Mercado|Package]
+PackageFolder=E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Package (2)
+ProjectFolder=E:\Informatica\Informática I40 Semestre 2\LPR\Projeto
+ServerSideCab=
+File1=E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Package (2)\setup.exe
+File2=E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Package (2)\Setup.Lst
+File3=E:\Informatica\Informática I40 Semestre 2\LPR\Projeto\Package (2)\Mercado.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
